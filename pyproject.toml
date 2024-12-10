@@ -1,0 +1,17 @@
+[project]
+name = "mcp-server-agenda"
+version = "0.1.0"
+description = "Interface the agenda note taking software"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [ "mcp>=1.1.1",]
+[[project.authors]]
+name = "alexgoller"
+email = "83632450+alexgoller@users.noreply.github.com"
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+mcp-server-agenda = "mcp_server_agenda:main"
